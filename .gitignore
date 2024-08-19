@@ -1,29 +1,18 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# IntelliJ IDEA 관련 파일들 무시
+.idea/
+*.iml
+*.iws
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# 빌드 결과물 및 배포 파일들 무시
+/out/
+build/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# 기타 IDE 관련 파일들 무시
+*.class
+*.log
+*.war
+*.ear
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# OS 관련 파일들 무시
 .DS_Store
+Thumbs.db
